@@ -1,9 +1,12 @@
-import turtle
-turtle.color("green")
-turtle.forward(100)
-turtle.right(45)
-turtle.color("blue")
-turtle.forward(50)
-turtle.right(45)
-turtle.color("pink")
-turtle.forward(100)
+percentage = float(input("Masukkan persentase nilai siswa: "))
+
+if percentage >= 90:
+    print("Excellent performance")
+elif percentage >= 80:
+    print("Very good performance")
+elif percentage >= 70:
+    print("Good performance")
+elif percentage >= 60:
+    print("Average performance")
+else:
+    print("Needs improvement")
